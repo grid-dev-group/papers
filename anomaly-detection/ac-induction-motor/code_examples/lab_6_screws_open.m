@@ -77,5 +77,5 @@ i_t=i_t_exp(start_at:start_at+SR*cycles-1);
 %i_t = transpose(i_t);
 
 
-[v_f_amp,v_f_ph,i_f_mag,i_f_ang,Ia_mag,Ia_ang,Ir_mag,Ir_ang,Is_mag,Is_ang,Ic_mag,Ic_ang,Ya_f_mag,Ya_f_ph,Yr_f_mag,Yr_f_ph,Yc_f_mag,Yc_f_ph,Ys_f_mag,Ys_f_ph]=CPC( v_t, i_t, f_sys, cycles, SR, SAF_dec,0,0);
+[v_f_amp,v_f_ph,i_f_mag,i_f_ang,Ia_mag,Ia_ang,Ir_mag,Ir_ang,Is_mag,Is_ang,Ic_mag,Ic_ang]=CPC( v_t, i_t, f_sys, cycles, SR, SAF_dec,0,0);
 
